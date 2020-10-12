@@ -14,11 +14,10 @@ def list_dwarves(array)
   # Print a numbered list of each element
   count=1
   index=0
-  array.each do
+  while index< array.each do
     
-  p " #{count}. #{array[index]} "
+  p" #{count}. #{array[index]} "
   count+=1
-  index+=1
   end
-  
-end
+  index+=1
+en1
